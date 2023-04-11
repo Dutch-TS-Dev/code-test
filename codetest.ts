@@ -1,10 +1,6 @@
 type StringObject = { [key: string]: string };
 
-export type UnpredictableObject = {
-  a: number;
-  c: any;
-  b?: StringObject;
-};
+export type UnpredictableObject = any;
 
 // please create a function with return type Array<StringObject> | null.
 // Your function should be called: resolveXYZArray, and it should do the following:
